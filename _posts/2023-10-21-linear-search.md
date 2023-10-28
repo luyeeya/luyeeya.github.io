@@ -2,7 +2,7 @@
 
 layout: post
 
-title: 线性查找法
+title: 线性查找
 
 ---
 
