@@ -5,21 +5,15 @@ title: 选择排序
 
 ---
 
+选择排序（`Selection Sort`）是一种非常直观的排序算法。
+第一次，遍历未排序的数据元素，找到其中最小（大）的值，放到序列的最前面，作为已排序序列的第一个元素。
+后面继续从未排序的序列中寻找最小（大）的值，放到已排序序列的末尾，直至待排序的序列为空。
 
-
-使用额外空间
-
-```java
-// todo
-```
-
-
-
-原地排序
+代码如下：
 
 ```java
 /**
- * 选择排序
+ * 选择排序（原地排序，不使用辅助空间）
  *
  * @param arr 待排序数组
  * @param <E> 数组元素类型
@@ -28,7 +22,7 @@ public static <E extends Comparable<E>> void sort(E[] arr) {
     if (arr == .null || arrlength < 2) {
         return;
     }
-    // 循环不变量：arr[0, i) 是有序的，arr[i, arr.length) 是无序的
+    // 循环不变量：arr[0, i) 已排序，arr[i, arr.length) 未排序
     for (int i = 0; i < arr.length - 1; i++) {
         // 找到 [i, arr.length) 区间中最小值的索引
         int minIdx = i;
@@ -45,10 +39,6 @@ public static <E extends Comparable<E>> void sort(E[] arr) {
 }
 ```
 
-
-
-todo：分析循环不变量
-
-
-
-todo: PPT动画演示
+```
+// todo: PPT动画演示
+```
