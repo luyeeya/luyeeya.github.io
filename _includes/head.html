@@ -10,5 +10,9 @@
   {%- endif -%}
 
   {%- include custom-head.html -%}
+
+  {% if page.mermaid %}
+    {% include mermaid.html %}
+  {% endif %}
   
 </head>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 在 Markdown 中画流程图
+mermaid: true
 ---
 
 在 Markdown 中画流程图需要用到代码块（语言类型为mermaid）：
@@ -14,14 +15,14 @@ clazz-->windows[在 Windows 运行]
 clazz-->macos[在 MacOS 运行]
 ```
 
-```mermaid
+<div class="mermaid">
 graph TB
 java[.java 文件]
 -->clazz[.class 文件]
 clazz-->linux[在 Linux 运行]
 clazz-->windows[在 Windows 运行]
 clazz-->macos[在 MacOS 运行]
-```
+</div>
 
 ### 方向
 
