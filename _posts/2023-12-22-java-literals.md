@@ -4,18 +4,9 @@ title: Java 字面量
 mermaid: true
 ---
 
-1. Integral Literals
-2. Floating-Point Literals
-3. Char Literals
-4. String Literals
-5. Boolean Literals
-6. Null Literals
-
-整型常量默认是 int 类型，浮点常量默认是 double 类型
-
 <div class="mermaid">
 graph LR
-literals(Java 字面量)
+literals(Java 字面量（Literals）)
 
 literals --> integral_literals
 integral_literals(整型字面量)
@@ -51,5 +42,4 @@ literals --> null_literals(null)
 |布尔字面量|取值只有 true 或 false|true、false|
 |null|表示引用为空|null|
 
-
-
+> 整型字面量默认是 int 类型，浮点字面量默认是 double 类型
