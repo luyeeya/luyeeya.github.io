@@ -103,7 +103,7 @@ clazz--运行-->macos["JVM for MacOS<br>(MacOS 操作系统)"]
 
 
 
-### Java 开发注事项
+### Java 开发注意事项
 
 1. 源文件的基本组成是类（class）
 
