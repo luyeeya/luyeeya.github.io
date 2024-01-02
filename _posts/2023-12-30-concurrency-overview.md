@@ -5,9 +5,11 @@ title: 认识并发
 
 ## 并发
 在计算机领域，`并发`指的是多个任务同时执行。这里的同时并非真正意义上的同时，实际表示的是在操作系统的调度下，多个任务快速交替执行。因为切换任务的速度快到人无法察觉出来（在linux系统，默认时间片是10ms），使得我们感觉多个任务在同时执行。
+
 ![并发](https://cdn.jsdelivr.net/gh/luyeeya/picx-images-hosting@master/programming/并发.2g1kmpeur3ok.png)
 
 说到并发，另一个容易混淆的概念是并行。`并行`表示多个任务真正地同时在执行，需要多核CPU的支持，一个核心执行一个任务。
+
 ![并行](https://cdn.jsdelivr.net/gh/luyeeya/picx-images-hosting@master/programming/并行.1o2ohhy1plc0.png)
 
 ### 什么时候需要用到并发
