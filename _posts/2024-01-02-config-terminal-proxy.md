@@ -36,7 +36,7 @@ source ~/.zshrc
 ```
 
 ### 关闭代理
-使用 `unproxy` 开启代理，执行 `curl ipinfo.io` 命令，可以看到切回到了国内 `ip`：
+使用 `unproxy` 关闭代理，执行 `curl ipinfo.io` 命令，可以看到切回到了国内 `ip`：
 ```bash
 {
   "ip": "xxx.xxx.xxx.xxx",
