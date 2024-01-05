@@ -303,4 +303,4 @@ dump 出来，用 MAT 工具分析：
 1. 使用 `jmap -dump:format=b,file=heap.hprof {进程id}` 命令 dump 出来内存信息
 2. 使用 `内存分析工具 MAT（Memory Analyzer）`分析 dump 出来的内存信息
 
-> MAT 可以从 https://eclipse.dev/mat/previousReleases.php 下载，1.11.0 版本支持 jdk 1.8
+> MAT 可以从 https://eclipse.dev/mat/previousReleases.php 下载，1.10.0 版本支持 jdk 1.8
