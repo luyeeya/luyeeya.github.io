@@ -3,8 +3,6 @@ layout: post
 title: Spring IoC 配置方式
 ---
 
-# Spring IoC 配置方式
-
 > 当前主流 Java 开发中一般用：注解配置 + Java Config
 
 ### 1⃣️ XML 配置
